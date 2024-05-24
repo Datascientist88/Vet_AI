@@ -29,7 +29,7 @@ def main():
     title = " AI Veterinary  Assistant"
     name = "Mohammed Bahageel"
     profession = "Artificial Intelligence Developer"
-    imgUrl = "http://olegif.com/bin/gifs/00/61/26.gif"
+    imgUrl = "https://img1.picmix.com/output/pic/normal/9/6/8/7/10757869_6f9dc.gif"
     st.markdown(
                 f"""
                 <div class="st-emotion-cache-18ni7ap ezrtsby2">
