@@ -23,13 +23,13 @@ client = OpenAI()
 # app layout
 def main():
     # Read HTML file
-    st.set_page_config("Doctor AI Assistant", page_icon="assets/Dsahicon.png")
+    st.set_page_config("Vet AI Assistant")
     with open("style.css") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-    title = "Doctor AI Assistant "
-    name = "Medical Diagnosis and More..."
-    profession = "Doctor Samir Abbas Hospital"
-    imgUrl = "https://media3.giphy.com/media/6P47BlxlgrJxQ9GR58/giphy.gif"
+    title = " AI Veterinary  Assistant"
+    name = "Mohammed Bahageel"
+    profession = "Artificial Intelligence Developer"
+    imgUrl = "http://olegif.com/bin/gifs/00/61/26.gif"
     st.markdown(
                 f"""
                 <div class="st-emotion-cache-18ni7ap ezrtsby2">
@@ -38,13 +38,12 @@ def main():
                 <div class="title"><p>{title}</p></div>
                 <p>{name}</p>
                 <p>{profession}</p>
-                <p>Powered by DSAH Information Technology</p>
                 </div>
                 </div>
                 """,
                 unsafe_allow_html=True,
-                 )
-    
+                )
+        
     # Float feature initialization
     float_init()
 
@@ -88,7 +87,12 @@ def main():
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = [
             AIMessage(
-                content=" Hello ! I'm  Doctor AI Assistant at Doctor Samir Abbas Hospital , How can I assist you today with your medical inquiries? 🥰"
+                content="""
+                    Welcome to the Veterinary AI Assistant Chat! I am here to help with veterinary medicine questions, 
+                    including diagnoses, symptoms, food formulations, surgeries, and more.
+                    How can I assist you today? 🥰
+                """
+                
             )
         ]
     if "vector_store" not in st.session_state:

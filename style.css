@@ -2,8 +2,11 @@
 [data-testid="stAppViewContainer"]{
     /*background-image:url("https://i.ibb.co/0GTS96m/theme3.jpg");
     background-size: cover;*/
-    background: linear-gradient(to right, rgb(182, 244, 146), rgb(65, 158, 167));
+    background: #F5F6FA
+
 }
+
+
 /*header*/
 
 div.ezrtsby2{
@@ -14,10 +17,10 @@ div.ezrtsby2{
     padding: 5px;
     height: 145px;
     margin-bottom: 40px;
-    background-color: #e0455f;
-    background-image: linear-gradient(147deg, #e0455f 0%, #44000b 74%);
+    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
     
 }
+
 
 .profileImage {
     width: 138px; /* Adjust the width as needed */
@@ -51,9 +54,9 @@ div.st-emotion-cache-18ni7ap .ezrtsby2 {
 /*chat message AI*/
 
 div.st-emotion-cache-4oy321.eeusbqq4 {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.397);
     border-radius: 20px;
-    margin-top: 5px;
+    margin-top: 0px;
     animation: fade-in-right 2s ease-in-out both;
 
 }
@@ -70,7 +73,7 @@ div.st-emotion-cache-4oy321.eeusbqq4 p {
 /*user message*/
 div.st-emotion-cache-1c7y2kd.eeusbqq4 {
     align-self: flex-end;
-    background: #D9FDD3;
+    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
     border-radius: 10px 3px 10px 10px;
     padding: 10px;
     max-width: 60%;

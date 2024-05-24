@@ -9,5 +9,5 @@ qdrant-client
 pypdf
 openai
 streamlit_float
-audio_recorder_streamlit
+audio-recorder-streamlit
 streamlit_extras
